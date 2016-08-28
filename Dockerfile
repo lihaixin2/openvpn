@@ -37,6 +37,6 @@ RUN  apt-get upgrade --yes && \
 
 # 运行各种Service
 
-ENTRYPOINT ["/usr/bin/myrun"]
+#ENTRYPOINT ["/usr/bin/myrun"]
 
 WORKDIR /etc/openvpn
